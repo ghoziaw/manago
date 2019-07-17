@@ -10,26 +10,43 @@
    See https://github.com/apache/cordova-plugin-statusbar
 */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-.statusbar-overlay {
-    background: #000000;
+@font-face{
+    font-family: 'Museo 300';
+    src: url('/www/font/Museo300-Regular.otf') format('opentype');
+    font-style: normal;
 }
 
-.login-page {
-    background-image: url('/images/bg-login.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+@font-face{
+    font-family: 'Museo 700';
+    src: url('/www/font/Museo700-Regular.otf') format('opentype');
+    font-style:normal;
 }
 
-.title {
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url('/www/font/Roboto-Bold.ttf') format('opentype');
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'Roboto Regular';
+    src: url('/www/font/Roboto-Regular.ttf') format('opentype');
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'Roboto Light';
+    src: url('/www/font/Roboto-Light.ttf') format('opentype');
+    font-style:normal;
+}
+.title-project {
     text-transform: uppercase;
     color: #1D1D1D;
     font-size: 15px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Museo 500';
 }
 
-.subtitle{
+.subtitle-project{
     text-transform: uppercase;
     color: #1D1D1D;
     font-size: 30px;

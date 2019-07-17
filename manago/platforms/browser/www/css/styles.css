@@ -10,7 +10,35 @@
    See https://github.com/apache/cordova-plugin-statusbar
 */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face{
+    font-family: 'Museo 300';
+    src: url('/www/font/Museo300-Regular.otf') format('opentype');
+    font-style: normal;
+}
 
+@font-face{
+    font-family: 'Museo 700';
+    src: url('/www/font/Museo700-Regular.otf') format('opentype');
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url('/www/font/Roboto-Bold.ttf') format('opentype');
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'Roboto Regular';
+    src: url('/www/font/Roboto-Regular.ttf') format('opentype');
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'Roboto Light';
+    src: url('/www/font/Roboto-Light.ttf') format('opentype');
+    font-style:normal;
+}
 .statusbar-overlay {
     background: #000000;
 }
@@ -42,7 +70,6 @@
     margin-right: auto;
     margin-bottom: 30px;
 }
-
 
 .form-login{
     margin-top: 70px;
@@ -78,6 +105,3 @@
     font-size: 16px;
 }
 
-.projects{
-
-}
