@@ -1,0 +1,89 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.login-page {
+    background-image: url('/images/bg-login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #1D1D1D;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.subtitle{
+    text-transform: uppercase;
+    color: #1D1D1D;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head{
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.border-separator-logo {
+    margin-top: 50px;
+    border: 0.5px #fff solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.form-login{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-block ul {
+    background: transparent;
+}
+
+.list-block .item-content .item-inner .item-input input::-webkit-input-placeholder {
+    color: #A9A9A9 !important;
+    font-size: 14px;
+}
+
+.list-block .item-content .item-inner .item-input input {
+    color: #fff;
+    border-bottom: 1px solid #A9A9A9;
+}
+
+.btn-signin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-sign-in{
+    border-radius: 20px;
+}
+
+.item-title.label{
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.projects{
+
+}
