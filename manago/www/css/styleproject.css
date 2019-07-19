@@ -39,14 +39,16 @@
     src: url('/www/font/Roboto-Light.ttf') format('opentype');
     font-style:normal;
 }
-.title-project {
+
+.welcome-report {
     text-transform: uppercase;
     color: #1D1D1D;
     font-size: 15px;
     font-family: 'Museo 500';
+    font-weight: 500;
 }
 
-.subtitle-project{
+.title-page{
     text-transform: uppercase;
     color: #1D1D1D;
     font-size: 30px;
