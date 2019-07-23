@@ -105,3 +105,27 @@
     font-size: 16px;
 }
 
+.item-input i {
+    font-size: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar, .subnavbar, .toolbar {
+    background-color: #fff;
+}
+
+.tabbar a.tab-link{
+    padding-top: 5px;
+color: #000;
+font-size: 12px;
+}
+
+.f7-icons, .framework7-icons{
+    font-size: 20px !important;
+}
+
+.tabbar a.link, .tabbar a.tab-link .tabbar-label{
+    padding-top: 2px;
+}
+

@@ -4,7 +4,7 @@ var myApp = new Framework7({
   root: '#app',
   // App Name
   name: 'My App',
-  // App id
+  // App id 
   id: 'com.myapp.test',
   // Enable swipe panel
   panel: {

@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+.content-block-report .scroll{
+    margin-bottom: 50px;
+}
+
+
 
 .searchbar{
     background: #D4D4D4;
@@ -49,4 +54,7 @@ box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
     border: solid 1px #01E91F;
     border-radius: 25px;
     margin-top: 30px;
+}
+.buttonq .f7-icons .color-green {
+    color: #01E91F;
 }

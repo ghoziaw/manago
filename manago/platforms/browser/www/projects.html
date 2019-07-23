@@ -12,98 +12,133 @@
 
 <!-- Views -->
 <div class="views">
-    <!-- Your main view, should have "view-main" class -->
-    <div class="view view-main">
-
-        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
-        <div class="pages navbar-through toolbar-through">
-            <!-- Page, "data-page" contains page name -->
-            <div data-page="index" class="page projects">
-                <div class="head">
-                    <div class="welcome-report">Welcome back, Richard</div>
-                    <div class="title-page">YOUR REPORT</div>
-                </div>
-                <div class="toolbar tabbar toolbar-bottom">
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+    
+            <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+            <div class="pages navbar-through toolbar-through">
+                <!-- Page, "data-page" contains page name -->
+                <div data-page="index" class="page projects">
+                    <div class="head">
+                        <div class="welcome-report">Welcome back, Richard</div>
+                        <div class="title-page">YOUR REPORT</div>
+                    </div>
+                    <div class="toolbar tabbar toolbar-bottom">
                         <div class="toolbar-inner">
-                                <a href="#tab-1" class="tab-link tab-link-active">
-                                  <!-- Different icons for iOS and MD themes -->
-                                  <!-- <i class="icon f7-icons ios-only">email_fill</i>
-                                  <i class="icon material-icons md-only">email</i> -->
-                                  <!-- Label text -->
-                                  <span class="tabbar-label">NOTIF</span>
-                                </a>
-                                <a href="#tab-2" class="tab-link">
-
-                                  <span class="tabbar-label">POST</span>
-                                </a>
-                                <a href="#tab-3" class="tab-link">
-                                
-                                  <span class="tabbar-label">PROFILE</span>
-                                </a>
-                              </div>
-                </div>
-                <!-- Scrollable page content -->
-                <div class="page-content-project ">
-                    <div class="content-block-report ">
-                        <div class="row">
-                            <form class="searchbar searchbar-init" data-search-list=".list-block-search" data-search-in=".item-title" data-found=".searchbar-found" data-not-found=".searchbar-not-found">
-                                <div class="searchbar-input">
-                                    <input type="search" placeholder="Search">
-                                    <a href="#" class="searchbar-clear"></a>
-                                </div>
-                                <a href="#" class="searchbar-cancel">Cancel</a>
-                            </form>
-                        </div>
-
-                        <div class="row">
-                            <div class="box-report">
-                                <div class="row col-100">
-                                    <div class="col-70">
-                                        <p class="title-report">Title Report</p>
-                                        <p class="isi-report">Isi Report</p>
-                                    </div>
-                                    <div class="col-30">
-                                        <p class="date-report">17/07/2019</p>
-                                        <button class="col buttonq button ">V</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="box-report">
-                                <div class="row col-100">
-                                    <div class="col-70">
-                                        <p class="title-report">Title Report</p>
-                                        <p class="isi-report">Isi Report</p>
-                                    </div>
-                                    <div class="col-30">
-                                        <p class="date-report">17/07/2019</p>
-                                        <button class="col buttonq button ">V</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="box-report">
-                                <div class="row col-100">
-                                    <div class="col-70">
-                                        <p class="title-report">Title Report</p>
-                                        <p class="isi-report">Isi Report</p>
-                                    </div>
-                                    <div class="col-30">
-                                        <p class="date-report">17/07/2019</p>
-                                        <button class="col buttonq button ">V</button>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <a href="about.html" class="tab-link tab-link-active">
+                                <i class="f7-icons color-black">message_fill</i>
+                                <div class="tabbar-label">NOTIF</div>
+                            </a>
+                            <a href="post.html" class="tab-link">
+                                <i class="f7-icons color-black">add_round</i>
+                                <div class="tabbar-label">POST</div>
+                            </a>
+                            <a href="profile.html" class="tab-link">
+                                <i class="f7-icons color-black">person_round</i>
+                                <div class="tabbar-label">PROFILE</div>
+                            </a>
                         </div>
                     </div>
-                </div>
-                
-                    
-            </div>
 
-            
+                        <div class="content-block-report ">
+                            <div class="row">
+                                <form class="searchbar searchbar-init" data-search-list=".list-block-search" data-search-in=".item-title" data-found=".searchbar-found" data-not-found=".searchbar-not-found">
+                                    <div class="searchbar-input">
+                                        <input type="search" placeholder="Search">
+                                        <a href="#" class="searchbar-clear"></a>
+                                    </div>
+                                    <a href="#" class="searchbar-cancel">Cancel</a>
+                                </form>
+                            </div>
+                        </div>
+                    <!-- Scrollable page content -->
+                    <div class="page-content infinite-scroll-content infinite-scroll-top">
+                        <div class="content-block-report ">                            
+    
+                            <div class="row scroll">
+                                <div class="box-report">
+                                    <div class="row col-100">
+                                        <div class="col-70">
+                                            <p class="title-report">Title Report</p>
+                                            <p class="isi-report">Isi Report</p>
+                                        </div>
+                                        <div class="col-30">
+                                            <p class="date-report">17/07/2019</p>
+                                            <button class="col buttonq button ">
+                                                <i class="f7-icons color-green">check</i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="box-report">
+                                    <div class="row col-100">
+                                        <div class="col-70">
+                                            <p class="title-report">Title Report</p>
+                                            <p class="isi-report">Isi Report</p>
+                                        </div>
+                                        <div class="col-30">
+                                            <p class="date-report">17/07/2019</p>
+                                            <button class="col buttonq button ">
+                                                <i class="f7-icons color-green">check</i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="box-report">
+                                    <div class="row col-100">
+                                        <div class="col-70">
+                                            <p class="title-report">Title Report</p>
+                                            <p class="isi-report">Isi Report</p>
+                                        </div>
+                                        <div class="col-30">
+                                            <p class="date-report">17/07/2019</p>
+                                            <button class="col buttonq button ">
+                                                <i class="f7-icons color-green">check</i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="box-report">
+                                    <div class="row col-100">
+                                        <div class="col-70">
+                                            <p class="title-report">Title Report</p>
+                                            <p class="isi-report">Isi Report</p>
+                                        </div>
+                                        <div class="col-30">
+                                            <p class="date-report">17/07/2019</p>
+                                            <button class="col buttonq button ">
+                                                <i class="f7-icons color-green">check</i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-report">
+                                    <div class="row col-100">
+                                        <div class="col-70">
+                                            <p class="title-report">Title Report</p>
+                                            <p class="isi-report">Isi Report</p>
+                                        </div>
+                                        <div class="col-30">
+                                            <p class="date-report">17/07/2019</p>
+                                            <button class="col buttonq button ">
+                                                <i class="f7-icons color-green">check</i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="preloader infinite-scroll-preloader"></div>
+
+                    </div>
+    
+                </div>
+    
+            </div>
         </div>
     </div>
-</div>
-</div>
+    </div>
