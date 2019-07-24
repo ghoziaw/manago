@@ -4,13 +4,8 @@
 .content-block-report{
     padding: 0 16px;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
-
-.content-block-report .scroll{
-    margin-bottom: 50px;
-}
-
-
 
 .searchbar{
     background: #D4D4D4;
@@ -23,7 +18,7 @@
     border: solid 1px #D4D4D4;
     border-radius: 25px;
     width: 100%;
-    margin-top: 15px;
+    margin-bottom: 15px;
     -webkit-box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
 -moz-box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
 box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
@@ -33,18 +28,20 @@ box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
     float: right;
 }
 
-.title-report{
+p.title-report{
     margin-left: 20px;
+    margin-top: 15px;
     font-size: 15px;
     margin-bottom: 5px;
     text-transform: uppercase;
 }
-.isi-report{
+p.isi-report{
     margin: 0px 20px;
     font-size: 12px;
 
 }
-.date-report{
+p.date-report{
+    margin-top: 20px;
     margin-right: 20px;
     font-size: 15px;
 }
@@ -53,8 +50,179 @@ box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
     color: #01E91F;
     border: solid 1px #01E91F;
     border-radius: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .buttonq .f7-icons .color-green {
     color: #01E91F;
 }
+
+.color-blue {
+    color: #D0E7F3 !important;
+}
+.color-blue-active {
+    color: #43BAF8 !important    ;
+}
+
+.staff .image{
+    width: 100%;
+}
+
+
+
+.staff .image{
+    width: 100%;
+}
+.staff .col-20{
+
+margin-left: 5px;        display: block;
+}
+
+.box-staff{
+    border: solid 1px #D4D4D4;
+    border-radius: 0px 20px 20px 20px;
+    height: 60px;
+    margin-top: 3px;
+    -webkit-box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
+-moz-box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
+box-shadow: 8px 14px 14px -12px rgba(214,214,214,1);
+}
+
+
+.box-staff .nama-staff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 5px 10px;
+    font-weight: 700;
+}
+
+.box-staff .posisi-staff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.row.staff.col-100 {
+    margin: 15px 0px;
+}
+
+.content-block-staff{
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.imageprofile{
+    margin: 0 auto;
+    display: block;
+    width: 86px;
+    height: auto;
+}
+
+.content-block-profile{
+    padding: 0 16px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.content-block-profile .nama-staff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 3px 0px;
+}
+
+.content-block-profile .posisi-staff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.kiri p.jumlah{
+    float: left;
+    font-size: 40px;
+    margin: 0;
+    margin-right: 5px;
+
+}
+
+.kiri p.keterangan {
+    float: left;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.kiri .jumlahreport {
+    position: absolute;
+    padding-left: 70px;
+}
+
+.kiri .icon {
+    width: 35px;
+    position: relative;
+    float: left;
+    margin-left: 55px;
+    margin-top: 3px;
+}
+
+
+.kanan p.jumlah{
+    float: left;
+    font-size: 40px;
+    margin: 0;
+    margin-right: 5px;
+
+}
+
+.kanan p.keterangan {
+    float: left;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.kanan .jumlahreport {
+    position: absolute;
+    padding-left: 25px;
+}
+
+.kanan .icon {
+    width: 35px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.count{
+    margin: 20px 0px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 0px 10px;
+}
+.desc-profile {
+    margin: 15px 10px;
+}
+
+p.title{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0px;
+    text-transform: uppercase;
+}
+
+p.isi{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+

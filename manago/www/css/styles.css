@@ -116,7 +116,6 @@
 }
 
 .tabbar a.tab-link{
-    padding-top: 5px;
 color: #000;
 font-size: 12px;
 }
@@ -129,3 +128,10 @@ font-size: 12px;
     padding-top: 2px;
 }
 
+.scroll{
+    height: 460px;
+}
+
+.hide{
+    visibility:hidden;
+}
